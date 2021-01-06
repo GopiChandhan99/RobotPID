@@ -26,7 +26,7 @@ class QuadratureEncoder(object):
         return self._value
 
 r = Robot((19,21), (24,26)) 
-e1 = QuadratureEncoder(16, 17
+e1 = QuadratureEncoder(16, 17)
 e2 = QuadratureEncoder(18, 19)
 
 r.value = (1,1)
